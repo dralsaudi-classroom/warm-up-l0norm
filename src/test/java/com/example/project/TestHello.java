@@ -22,7 +22,7 @@ public class TestHello {
      Hello.main(null);
 
      // assertion
-     assertEquals("how to push and pull", bos.toString());
+     assertEquals("Hello world!\n", bos.toString());
 
      // undo the binding in System
      System.setOut(originalOut);
